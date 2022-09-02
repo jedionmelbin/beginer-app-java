@@ -4,10 +4,7 @@ import com.xprotech.app.domain.Customer;
 
 import java.util.*;
 
-public class CollectionType {
-    public CollectionType() {
-
-    }
+public class CollectionExample {
 
     public void runApp() {
         List<Customer> list1 = new ArrayList<>();

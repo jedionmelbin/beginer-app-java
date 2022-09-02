@@ -1,13 +1,20 @@
 package com.xprotech.app;
 
-import com.xprotech.app.types.CollectionType;
+import com.xprotech.app.algorithm.TestMaxValue;
+import com.xprotech.app.algorithm.TestOneArray;
+import com.xprotech.app.types.CollectionExample;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        CollectionType collectionType = new CollectionType();
-        collectionType.runApp();
-        System.out.println("running app");
+
+        //TODO Test Array
+        //TestOneArray testOneArray = new TestOneArray();
+        //testOneArray.runApp();
+        //TODO MAX VALUE
+        TestMaxValue testMaxValue= new TestMaxValue();
+        testMaxValue.runApp();
+
+        System.out.println("Completed app::");
     }
 }
